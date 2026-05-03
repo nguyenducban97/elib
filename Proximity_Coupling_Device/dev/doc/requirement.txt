@@ -1,0 +1,4 @@
+PCD_SWS_01: before trigger any command to PCD. Host must ensure all dependencie drivers are in ready state, unless stop execution immediately.
+PCD_SWS_02: before the initialization finish, the processing PCD Isr is not allowed.
+PCD_SWS_03: if any process is triggered when PCD driver status is in wrong state, it will be canceled.
+PCD_SWS_04: before enable passing interrupt, the IRQ pin must be set in correct state.
